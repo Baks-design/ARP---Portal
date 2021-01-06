@@ -1,14 +1,18 @@
 Shader "Unlit/Mask"
 {
-    Properties {}
+    Properties 
+    {
+    }
 
-    Subshader {
-
-        Tags {
+    Subshader 
+    {
+        Tags 
+        {
             "RenderType" = "Transparent"
         }
 
-        Pass {
+        Pass 
+        {
             ZWrite Off
         }
     }
